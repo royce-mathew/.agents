@@ -1,0 +1,115 @@
+{
+  "version": 3,
+  "skills": {
+    "product-launch-video": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "skillPath": "skills/product-launch-video/SKILL.md",
+      "skillFolderHash": "5f8a3c3f0d68fd4222329171e23d82141bb5a3c9",
+      "installedAt": "2026-09-28T04:21:43.783Z",
+      "updatedAt": "2026-09-28T04:21:43.783Z"
+    },
+    "hyperframes": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "skillPath": "skills/hyperframes/SKILL.md",
+      "skillFolderHash": "ba10e015ac7385ccfca343d7cfae8f1bd5b0bc83",
+      "pluginName": "core-skills",
+      "installedAt": "2026-09-28T04:22:42.161Z",
+      "updatedAt": "2026-09-28T04:22:42.161Z"
+    },
+    "hyperframes-animation": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "skillPath": "skills/hyperframes-animation/SKILL.md",
+      "skillFolderHash": "76c21b7261ad1edafc474831d8862e179b908ada",
+      "pluginName": "core-skills",
+      "installedAt": "2026-09-28T04:22:42.162Z",
+      "updatedAt": "2026-09-28T04:22:42.162Z"
+    },
+    "hyperframes-audio": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "skillPath": "skills/hyperframes-audio/SKILL.md",
+      "skillFolderHash": "0d911a341357e597885ccfd770be3fc3f9957248",
+      "pluginName": "core-skills",
+      "installedAt": "2026-09-28T04:22:42.171Z",
+      "updatedAt": "2026-09-28T04:22:42.171Z"
+    },
+    "hyperframes-cli": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "skillPath": "skills/hyperframes-cli/SKILL.md",
+      "skillFolderHash": "ae0508c4d29b42e74183a32b0bec333ff1d88c74",
+      "pluginName": "core-skills",
+      "installedAt": "2026-09-28T04:22:42.172Z",
+      "updatedAt": "2026-09-28T04:22:42.172Z"
+    },
+    "hyperframes-core": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "skillPath": "skills/hyperframes-core/SKILL.md",
+      "skillFolderHash": "065b67d8d0ff2990903d8e9675b80195bb02b7cd",
+      "pluginName": "core-skills",
+      "installedAt": "2026-09-28T04:22:42.173Z",
+      "updatedAt": "2026-09-28T04:22:42.173Z"
+    },
+    "hyperframes-creative": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "skillPath": "skills/hyperframes-creative/SKILL.md",
+      "skillFolderHash": "b345a56a963b80731f6189d87363c89f0de4cc15",
+      "pluginName": "core-skills",
+      "installedAt": "2026-09-28T04:22:42.173Z",
+      "updatedAt": "2026-09-28T04:22:42.173Z"
+    },
+    "hyperframes-keyframes": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "skillPath": "skills/hyperframes-keyframes/SKILL.md",
+      "skillFolderHash": "ce6d298a5b84cfab8a592e2fc4322b8db265a508",
+      "pluginName": "core-skills",
+      "installedAt": "2026-09-28T04:22:42.174Z",
+      "updatedAt": "2026-09-28T04:22:42.174Z"
+    },
+    "hyperframes-registry": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "skillPath": "skills/hyperframes-registry/SKILL.md",
+      "skillFolderHash": "9dda0af0da4e740c8d622ccff5bfccc096062a3d",
+      "pluginName": "core-skills",
+      "installedAt": "2026-09-28T04:22:42.174Z",
+      "updatedAt": "2026-09-28T04:22:42.174Z"
+    },
+    "hyperframes-studio": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "skillPath": "skills/hyperframes-studio/SKILL.md",
+      "skillFolderHash": "aaac6e143efbdd2a0a5ce714811d046aceb2b3b0",
+      "pluginName": "core-skills",
+      "installedAt": "2026-09-28T04:22:42.175Z",
+      "updatedAt": "2026-09-28T04:22:42.175Z"
+    },
+    "media-use": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "skillPath": "skills/media-use/SKILL.md",
+      "skillFolderHash": "72347073fbade7234d5389fd4eafdac5631f156d",
+      "pluginName": "core-skills",
+      "installedAt": "2026-09-28T04:22:42.175Z",
+      "updatedAt": "2026-09-28T04:22:42.175Z"
+    }
+  },
+  "dismissed": {}
+}
