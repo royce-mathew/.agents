@@ -29,7 +29,7 @@ If the goal is unclear, ask what the reader should think, feel, or do after read
 - **Front-load only when it improves clarity.** Put conclusions early when that helps the reader. Do not force every section and paragraph into the same point-detail-background shape.
 - **Keep the user's meaning.** Don't invent claims, examples, stats, or opinions. If something is unclear, ask.
 - **Open it up, don't dumb it down.** Keep the substance, nuance, and precision. Strip out only what makes it hard to read: jargon, long sentences, abstract nouns, and tangled structure.
-- **Use active voice.** "The team shipped it Tuesday" beats "the decision emerged." Never let inanimate things do human verbs.
+- **Use active voice.** Catch "is/are/was/were + past participle" and name the actor: "Queries are validated" becomes "The compiler validates queries." Passive is fine when the actor is unknown or doesn't matter. When an abstraction stands in for the people who acted, name them: "The decision emerged" becomes "The team decided."
 - **Make every sentence earn its place.** Cut empty qualifiers and throat-clearing. Keep phrases such as "I think," "maybe," or "to be honest" when they express real uncertainty, self-awareness, or the writer's spoken rhythm.
 - **Untangle sentences without flattening the cadence.** Split sentences and paragraphs when they are genuinely hard to follow. Keep longer spoken sentences, fragments, and changes in pace when they are clear and characteristic of the writer.
 - **Be concrete and specific.** Abstraction is where writing goes to die. "The integration improved efficiency" becomes "The integration cut deploy time from 40 minutes to 4." Names, numbers, dates, mechanisms, and examples beat abstractions.
@@ -43,7 +43,7 @@ If the goal is unclear, ask what the reader should think, feel, or do after read
 
 ## Words to cut
 
-Banned outright: delve, foster, leverage, utilize, facilitate, empower, streamline, robust, cutting-edge, paradigm shift, game changer, this is huge, this changes everything, tapestry, realm, beacon, multifaceted, meticulous, intricate, paramount, transformative, elevate, embark, supercharge, harness, ever-evolving.
+Banned outright: delve, foster, leverage, utilize, facilitate, empower, streamline, robust, cutting-edge, paradigm shift, game changer, this is huge, this changes everything, tapestry, realm, beacon, multifaceted, meticulous, intricate, paramount, transformative, elevate, embark, supercharge, harness, ever-evolving, additionally, crucial, enduring, enhance, garner, interplay, landscape (abstract), pivotal, showcase, testament, underscore, vibrant.
 
 Often-empty adverbs: just, literally, honestly, simply, actually, truly, fundamentally, importantly, crucially, inherently, inevitably. Cut them when they add nothing. Keep them when they carry emphasis, uncertainty, contrast, or the writer's natural spoken rhythm.
 
@@ -55,9 +55,11 @@ Often-empty phrases: it's worth noting, it's important to note, at the end of th
 
 **Throat-clearing openers.** "Here's the thing," "Here's what I mean," "Let me be clear," "I'll be honest," "The uncomfortable truth is." Cut them and state the point.
 
+**Chatbot residue.** "I hope this helps!", "Let me know if you'd like...", "Certainly!", "Great question!", "You're absolutely right!" These leak in when a draft started as chat output. Cut them.
+
 **Faux-insight setups.** "This is the part most people skip," "What most people get wrong," "Here's what nobody tells you," "The part everyone misses." These flatter the writer as the lone expert. Cut the setup and make the claim stand on its own. "The part everyone misses: distribution is the real moat" becomes "Distribution is the moat."
 
-**Colon reveals.** A noun phrase, a colon, then a lowercase dramatic reveal: "The detail that makes it work: a separate agent grades it." "The best part: it learns." Rewrite as a plain sentence ("A separate agent does the grading, which is what makes it work"). Use colons for lists, labels, and quotes, not fake drama. Prefer sentence case after a colon unless grammar, a proper noun, a title, or code requires otherwise.
+**Colon reveals.** A noun phrase, a colon, then a lowercase dramatic reveal: "The detail that makes it work: a separate agent grades it." "The best part: it learns." Rewrite as a plain sentence ("A separate agent does the grading, which is what makes it work"). The same goes for colons used as mid-sentence connectors: "If you're coming from traditional automation: instead of registering event handlers, you describe conditions" becomes "You describe conditions instead of registering event handlers." Use colons for lists, labels, and quotes, not fake drama. Prefer sentence case after a colon unless grammar, a proper noun, a title, or code requires otherwise.
 
 **Superficial analysis.** Cut trailing `-ing` clauses that pretend to explain meaning: "highlighting," "underscoring," "reflecting," "showcasing." "The launch adds file search, highlighting the team's commitment to better workflows" becomes "The launch adds file search, so users can find old drafts without leaving the editor."
 
@@ -67,15 +69,23 @@ Often-empty phrases: it's worth noting, it's important to note, at the end of th
 
 **Weasel attribution.** "Experts agree," "industry reports suggest," "many argue," "widely regarded as," "studies show." Name the source or cut the claim. If the user has no source, ask instead of inventing one.
 
+**Stacked hedges.** "It could potentially possibly be argued that it might" becomes "It may." Keep one hedge where the uncertainty is real and cut the rest.
+
 **Fake-strong verbs.** Prefer "is" and "has" when they are clearer. "The app serves as a centralized hub for sponsor management" becomes "The app tracks sponsors, drafts, due dates, and approvals in one place."
 
 **Synonym cycling.** If the clear word is right, repeat it. Don't rotate terms for style. "The agent reviews the draft. The assistant scores the piece. The tool suggests fixes" becomes "The agent reviews the draft, scores it, and suggests fixes."
+
+**False ranges.** "From X to Y" where X and Y don't sit on a real scale: "from cutting costs to building culture." List the items directly.
 
 **Negative listing.** "Not a X. Not a Y. A Z." Just say Z.
 
 **Dramatic fragmentation.** "X. And Y. And Z." or "That's it. That's the whole thing." Use complete sentences.
 
+**Over-compression.** Dropped articles, verbless fragments, arrows, and unexplained abbreviations make the reader decode instead of read. "Parser rejects bad date → exit 2, no write" becomes "The parser rejects a bad date, exits with code 2, and writes nothing." Keep fragments that belong to the writer's cadence and read clearly.
+
 **Robotic rhythm.** Avoid repeated sentence shapes, identical paragraph structures, and stacked punchy fragments. Vary the shape only when it helps the point.
+
+**Rule of three.** Ideas forced into groups of three: three adjectives, three parallel clauses, three bullets when the content has two points or four. Use the natural number.
 
 **Rhetorical setups.** "What if I told you...", "Think about it:", "Plot twist:", and self-answered "Question? Answer." pairs. Drop them and make the point.
 
@@ -83,7 +93,9 @@ Often-empty phrases: it's worth noting, it's important to note, at the end of th
 
 **Summary-recap endings.** "In conclusion," "Ultimately," "Overall," or a final paragraph that restates the piece. The reader was just there. End on the last concrete point, takeaway, or next action instead.
 
-**Formatting slop.** Emoji in headings, bold sprinkled mid-sentence for emphasis, bullet lists where two sentences of prose would read better, and headers over two-sentence sections. Format should follow the content, not decorate it.
+**Formatting slop.** Emoji in headings and bullets, title case headings, bold sprinkled mid-sentence for emphasis, bullet lists where two sentences of prose would read better, and headers over two-sentence sections. Use sentence case for headings unless the publication's house style says otherwise. Format should follow the content, not decorate it.
+
+**Inline-header lists.** A bold label and colon that the line then restates: "**Performance:** Performance improved across the board." Convert those to prose. A bold lead-in that ends in a period, names the item, and adds new detail ("**Schema in TypeScript.** Tables live in one file.") is fine.
 
 **Em dashes.** Do not use them as a default rhythm crutch. In short copy, use none. In longer drafts, 1-2 are fine if they clearly beat commas, periods, or parentheses. Remove clusters and decorative dashes.
 
